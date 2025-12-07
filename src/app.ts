@@ -28,6 +28,7 @@ app.use("/api/v1/users", userRoutes);
 app.use("/api/v1/vehicles", vehicleRoutes);
 app.use("/api/v1/bookings", bookingRoutes);
 
+
 // 404 Not Found
 app.use((req: Request, res: Response) => {
   res.status(404).json({
